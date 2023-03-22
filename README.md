@@ -7,3 +7,4 @@ L'integralité des activités du module 2 semestre 4, filière II-BDCC sous l'en
 ## Partie 2 : Spark
 
 - [TP4 :Traitement parallèle et distribué avec Spark](./TP7-SPARK01/)
+- [TP5 : Traitement SparkStreaming](./TD02%20-%20SparkStreaming/)
