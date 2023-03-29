@@ -1,12 +1,18 @@
 package ma.enset;
+import org.apache.log4j.Level;
+import org.apache.log4j.Logger;
 import org.apache.spark.SparkConf;
+import org.apache.spark.streaming.Duration;
 import org.apache.spark.streaming.Durations;
 import org.apache.spark.streaming.api.java.JavaDStream;
 import org.apache.spark.streaming.api.java.JavaPairDStream;
+import org.apache.spark.streaming.api.java.JavaReceiverInputDStream;
 import org.apache.spark.streaming.api.java.JavaStreamingContext;
 import scala.Tuple2;
 
-public class Application01 {
+import java.util.Arrays;
+
+/*public class Application01 {
     public static void main(String[] args) {
         SparkConf conf = new SparkConf().setAppName("Sales");
         JavaStreamingContext jssc = new JavaStreamingContext(conf, Durations.seconds(1));
@@ -33,10 +39,10 @@ public class Application01 {
             throw new RuntimeException(e);
         }
     }
-}
+}*/
 
 /*APPLICATION EN CLASSE*/
-/*
+/**/
 public class Application01 {
     public static void main(String[] args) throws InterruptedException {
         //pour eliminer les messages "logger"
@@ -47,7 +53,7 @@ public class Application01 {
         JavaStreamingContext sc = new JavaStreamingContext(conf, new Duration(5000));
 
         //Créer un stream de donnees
-        JavaReceiverInputDStream<String> dStreamLines = sc.socketTextStream("localhost",9090);
+        JavaReceiverInputDStream<String> dStreamLines = sc.socketTextStream("localhost",9870);
         JavaDStream<String> dStreamWords = dStreamLines.flatMap(s -> Arrays.asList(s.split(" ")).iterator());
 
         // des transformations sur le stream de donnees
@@ -57,4 +63,4 @@ public class Application01 {
         sc.start();
         sc.awaitTermination();
     }
-}*/
+}
