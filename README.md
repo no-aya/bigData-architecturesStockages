@@ -9,3 +9,5 @@ L'integralité des activités du module 2 semestre 4, filière II-BDCC sous l'en
 - [TP4 :Traitement parallèle et distribué avec Spark](./TP7-SPARK01/)
 - [TP5 : Traitement SparkStreaming](./TD02%20-%20SparkStreaming/)
 - [Application : Spark Session | Spark Sql](./SparkSession/README.md)
+- TP6 : Traitement SparkSQL
+    - [Exercice 01 : Gestion Hopital](./TP08-SparkSQL/Gestion-Hopital/README.md)
