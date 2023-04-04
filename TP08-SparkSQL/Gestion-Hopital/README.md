@@ -109,13 +109,15 @@ INSERT INTO CONSULTATIONS (ID_PATIENT, ID_MEDECIN, DATE_CONSULTATION) VALUES (5,
 
 Voici le résultat de nos requêtes :
 
-![img.png](img.png)
+![img](https://user-images.githubusercontent.com/106016869/229707432-7e96b3ea-f1d4-4fef-ada6-7540046d2175.png)
 
-![img_1.png](img_1.png) 
+![img_1](https://user-images.githubusercontent.com/106016869/229707447-b6290ca0-ff4f-4b29-8a45-ae4e50dc92ed.png)
 
-![img_2.png](img_2.png)
+![img_2](https://user-images.githubusercontent.com/106016869/229707481-ff0788f7-c77f-4a7f-9ee8-8741e7368d3a.png)
 
-![img_3.png](img_3.png)
+![img_3](https://user-images.githubusercontent.com/106016869/229707508-748c9d80-540c-43ff-adcc-7215d10411f1.png)
+
+
 
 ## Initialisation du projet Java et des dépendances
 
@@ -227,7 +229,7 @@ Consultations par date | Méthode SQL
 +-----------------+-------------------+
 ```
 
-![img_4.png](img_4.png)
+![img_4](https://user-images.githubusercontent.com/106016869/229707582-e20ac623-a1bd-4b90-8dc5-f12b962f3c1e.png)
 
 
 ### Méthode DataFrame
@@ -262,7 +264,8 @@ Consultations par date | Méthode DataFrame
 |       2020-01-01|    5|
 +-----------------+-----+
 ```
-![img_5.png](img_5.png)
+![img_5](https://user-images.githubusercontent.com/106016869/229707641-ff8121e6-847e-44c6-ab3f-2c9bee6282e0.png)
+
 
 ## 2. Afficher le nombre de consultation par médecin
 
@@ -306,8 +309,8 @@ Consultations par médecin | Méthode SQL
 |DUPONT|  Jean|                 1|
 +------+------+------------------+
 ```
+![img_6](https://user-images.githubusercontent.com/106016869/229707698-e8e7e217-d0a1-46ef-b3aa-c4aa3c3568e3.png)
 
-![img_6.png](img_6.png)
 
 ### Méthode DataFrame
 
@@ -351,7 +354,8 @@ Consultations par médecin | Méthode DataSet
 +------+------+-----------------------+
 ```
 
-![img_7.png](img_7.png)
+![img_7](https://user-images.githubusercontent.com/106016869/229707767-c8fe24cd-0d88-4fb4-94de-91ddd606d039.png)
+
 
 ## 3. Afficher pour chaque médecin, le nombre de patients qu’il a assisté.
 ### Méthode SQL
@@ -390,8 +394,8 @@ Patients traités par médecin | Méthode SQL
 |DURAND|Pierre|             5|
 +------+------+--------------+
 ```
+![img_8](https://user-images.githubusercontent.com/106016869/229707807-62a42911-4340-42fd-ba05-c34845069cac.png)
 
-![img_8.png](img_8.png)
 
 ### Méthode DataFrame
 
@@ -432,7 +436,8 @@ Patients traités par médecin | Méthode Dataframe
 
 ```
 
-![img_9.png](img_9.png)
+![img_9](https://user-images.githubusercontent.com/106016869/229707868-30e9eab8-5b2d-475e-91d8-411f79a1f15c.png)
+
 
 
 
