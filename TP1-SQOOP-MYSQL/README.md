@@ -1,8 +1,5 @@
 # SQOOP : Se connecter à une base de données distante 
 
->**Réalisé par :**
-> - Aya Aitoulahyane
-> - II-BDCC
 ## Configuration 
 Dans cette application nous utilisons Ubuntu WSL, nous utilisons Hadoop version 3.3.0, SQOOP version 1.4.7 et JDBC version 5.1.48.
 
