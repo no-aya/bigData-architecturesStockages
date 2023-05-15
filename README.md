@@ -17,3 +17,6 @@ L'execution a été faite sur Jupiter Notebook
 - [TD01 : PySpark](./TD03-PySpark/[Aitoulahyane%20Aya]SalesPerCity.ipynb) 
     - Fichier csv 
     - SparkStreaming
+
+## Partie 4 : SQOOP
+- [TP7 : SQOOP](./TP1-SQOOP-MYSQL/README.md)
